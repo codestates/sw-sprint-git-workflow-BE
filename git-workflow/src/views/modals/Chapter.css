@@ -1,0 +1,16 @@
+.chapter_modal {
+    background-color: #fefefe;
+    text-align: center;
+    padding: 5px;
+    width: 90%;
+    font-family: 'PT Sans', sans-serif;
+    color: #4000c7;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.chapter_list {
+    margin: 10px;
+    border-bottom: 1px dotted #7b86d3;
+    font-size: 14px;
+}

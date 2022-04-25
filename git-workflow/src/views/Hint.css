@@ -1,0 +1,16 @@
+.hint_modal {
+    position: absolute;
+    background-color: #c5caec;
+    bottom: 10%;
+    right: 2%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    color: #333;
+    font-size: 13px;
+    box-shadow: bisque;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    float: right;
+}
