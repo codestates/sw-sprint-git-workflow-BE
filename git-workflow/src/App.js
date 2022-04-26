@@ -13,7 +13,7 @@ import {
 function App () {
   return (
     <Router>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/sw-sprint-git-workflow-BE/">
         <Switch>
           <Route exact path='/'>
             <Start />
