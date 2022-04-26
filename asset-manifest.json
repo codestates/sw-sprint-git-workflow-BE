@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://codestates.github.io/sw-sprint-git-workflow-BE/static/css/main.be6cdf10.chunk.css",
-    "main.js": "https://codestates.github.io/sw-sprint-git-workflow-BE/static/js/main.36e54111.chunk.js",
-    "main.js.map": "https://codestates.github.io/sw-sprint-git-workflow-BE/static/js/main.36e54111.chunk.js.map",
+    "main.js": "https://codestates.github.io/sw-sprint-git-workflow-BE/static/js/main.7747ee81.chunk.js",
+    "main.js.map": "https://codestates.github.io/sw-sprint-git-workflow-BE/static/js/main.7747ee81.chunk.js.map",
     "runtime-main.js": "https://codestates.github.io/sw-sprint-git-workflow-BE/static/js/runtime-main.f1edd46b.js",
     "runtime-main.js.map": "https://codestates.github.io/sw-sprint-git-workflow-BE/static/js/runtime-main.f1edd46b.js.map",
     "static/js/2.bb8aa6bd.chunk.js": "https://codestates.github.io/sw-sprint-git-workflow-BE/static/js/2.bb8aa6bd.chunk.js",
@@ -59,6 +59,6 @@
     "static/js/runtime-main.f1edd46b.js",
     "static/js/2.bb8aa6bd.chunk.js",
     "static/css/main.be6cdf10.chunk.css",
-    "static/js/main.36e54111.chunk.js"
+    "static/js/main.7747ee81.chunk.js"
   ]
 }
