@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.modal_backdrop {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: grid;
+  place-items: center;
+}
+
+.modal_content {
+  background-color: #fefefe;
+  place-self: center;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  font-family: 'PT Sans', sans-serif;
+  color: #4000c7;
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.modal_description {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.modal_btn {
+  background-color: #4000c7;
+  border-radius: 1.5rem;
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  display: block;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  border: 0;
+  outline: 0;
+  font-family: Pacifico;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.1s;
+  font-size: calc(1rem + 0.25vw + 0.5vh);
+  animation: btnAni 1.5s ease-in-out infinite both;
+}
+
+.modal_btn:hover {
+  color: #4c56a1;
+  background: #d2bdff;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

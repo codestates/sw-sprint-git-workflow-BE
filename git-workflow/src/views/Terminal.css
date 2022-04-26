@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.terminal {
+  border-radius: 8px;
+  background-color: #333;
+  margin: 10px;
+  overflow: hidden;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+.bar {
+  flex: 0 1 30px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color:#4c56a1;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.circle {
+  color: rgba(74, 74, 74, 0.913);
+  background-color: rgb(147, 161, 173);
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.bar_description {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fakeButton :nth-child(3) {
+  background-color: rgb(109, 203, 104);
+}
+
+.fakeButton :nth-child(2) {
+  background-color: rgb(233, 228, 78);
+}
+
+.fakeButton :nth-child(1) {
+  background-color: rgb(233, 78, 78);
+}
+
+.question_description {
+  color: #ccc;
+  margin: 20px;
+  flex: 0 1 50px;
+}
+
+.terminal_guide {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0 20px;
+  overflow: auto;
+  flex: 1 0 auto;
+}
+
+.input_line {
+  flex: 0 1 30px;
+  display: flex;
+  margin: 20px;
+  bottom: 1rem;
+}
+
+.input_line .input {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  margin-right: 10px;
+  flex: auto;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  background: transparent;
+}
+
+.hint_btn {
+  border-radius: 40px;
+  background-color: #4c56a1;
+  margin: 0 5px;
+  color: white;
+  flex: 0 1 50px;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.hint_btn:hover {
+  background-color: white;
+  color: #4c56a1;
+}
+
+.enter_btn {
+  flex: 0 1 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: 0;
+}
+
+.enter_btn:hover {
+  background-color: #4c56a1;
+  color: white;
+}

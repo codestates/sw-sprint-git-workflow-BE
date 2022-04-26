@@ -1,0 +1,35 @@
+.nav {
+  background-color: #4c56a1;
+  color: white;
+  /* display: flex; */
+  align-items: center;
+  flex: 0 1 200px;
+  min-width: 200px;
+}
+
+.nav_title {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+  background-color:#7b86d3;
+}
+
+ol {
+  margin: 10px;
+  padding-inline-start: 3ch;
+}
+
+li {
+  padding: 5px;
+  border-bottom: 1px dotted #7b86d3;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.current_tab {
+  color: rgb(255, 230, 0)
+}
